@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المحاسب السهل - برنامج إدارة المبيعات</title>
+    <meta name="description" content="برنامج المحاسب السهل لإدارة المبيعات، المخزون، العملاء، والصيانة. سهل، قوي، ويدعم اللغة العربية.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">المحاسب السهل</div>
+            <ul>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#download">التحميل</a></li>
+                <li><a href="#news">الأخبار</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#" id="login-link" class="login-btn">تسجيل الدخول</a></li>
+                <li><a href="#" id="signup-link" class="signup-btn">إنشاء حساب</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container hero-content">
+                <h1>برنامج المحاسب السهل</h1>
+                <p>الحل المتكامل لإدارة محلك التجاري بكفاءة وسهولة.</p>
+                <a href="#download" class="btn btn-primary">تحميل أحدث إصدار</a>
+                <span id="version-info">الإصدار 2.1.0</span>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="container">
+            <h2>مميزات البرنامج ✨</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📊</div>
+                    <h3>إدارة المبيعات</h3>
+                    <p>تسجيل فواتير البيع النقدي وللعملاء، مع دعم الخصومات والملاحظات.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📦</div>
+                    <h3>إدارة المخزون</h3>
+                    <p>تتبع المنتجات، الكميات، أسعار الشراء والبيع، وتنبيهات انخفاض المخزون.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">👥</div>
+                    <h3>إدارة العملاء</h3>
+                    <p>سجل كامل للعملاء، ديونهم، وكشوفات حساباتهم التفصيلية.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔧</div>
+                    <h3>نظام الصيانة</h3>
+                    <p>تسجيل طلبات الصيانة، تكلفتها، وأرباحها بشكل منفصل.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📈</div>
+                    <h3>تقارير شاملة</h3>
+                    <p>تقارير يومية وشهرية للأرباح، المبيعات، والمصروفات لمتابعة أداء عملك.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>ربط مع الهاتف</h3>
+                    <p>الوصول لبيانات البرنامج وعرضها من أي هاتف على نفس الشبكة.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section id="screenshots" class="container">
+            <h2>شاشات من البرنامج</h2>
+            <div class="screenshots-grid">
+                <!-- قم باستبدال 'placeholder.png' بصور حقيقية من برنامجك -->
+                <img src="https://via.placeholder.com/400x250.png?text=الواجهة+الرئيسية" alt="الواجهة الرئيسية للبرنامج">
+                <img src="https://via.placeholder.com/400x250.png?text=شاشة+المبيعات" alt="شاشة المبيعات">
+                <img src="https://via.placeholder.com/400x250.png?text=شاشة+التقارير" alt="شاشة التقارير">
+            </div>
+             <p class="note">ملاحظة: هذه صور مؤقتة. قم بوضع صور من برنامجك الفعلي هنا.</p>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download">
+            <div class="container">
+                <h2>جاهز للبدء؟</h2>
+                <p>قم بتحميل أحدث نسخة من برنامج المحاسب السهل لنظام ويندوز.</p>
+                <a id="download-button" href="#" class="btn btn-success">
+                    تحميل الإصدار <span id="download-version"></span>
+                </a>
+                <div id="download-size"></div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="container">
+            <h2>آخر الأخبار والتحديثات</h2>
+            <div class="news-item">
+                <h3>إطلاق الإصدار 2.1.0</h3>
+                <span class="news-date">15 نوفمبر 2025</span>
+                <p>يسعدنا إطلاق الإصدار الجديد من المحاسب السهل، والذي يتضمن تحسينات في الأداء وإضافة قسم الصيانة المتكامل. يمكنكم الآن تتبع طلبات الصيانة وأرباحها بسهولة.</p>
+            </div>
+            <!-- يمكنك إضافة المزيد من الأخبار هنا -->
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>اتصل بنا 📞</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">الاسم</label>
+                        <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="كيف يمكننا مساعدتك؟"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <p>📧 البريد: hhnnookk@gmail.com</p>
+                    <p>📱 الهاتف:07838926007</p>
+                    <p>📍 العنوان: كربلاء</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 المحاسب السهل. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">البريد الإلكتروني</label>
+                    <input type="email" id="login-email" required placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">كلمة المرور</label>
+                    <input type="password" id="login-password" required placeholder="********">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">دخول</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>إنشاء حساب جديد</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="signup-name">الاسم الكامل</label>
+                    <input type="text" id="signup-name" required placeholder="الاسم الكامل">
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">البريد الإلكتروني</label>
+                    <input type="email" id="signup-email" required placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">كلمة المرور</label>
+                    <input type="password" id="signup-password" required placeholder="********">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">إنشاء حساب</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
